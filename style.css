@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Unkempt:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fac6cd;
+  font-family: 'Unkempt', serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+    color: #da6778;
+    font-size: 50px
+}
+
+.btn {
+  background-color: #da6778;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  font-size: 25px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn:focus {
+  outline: none;
+}
